@@ -1,1 +1,86 @@
+ /* Body basic styling */
+body{
+    background-color: antiquewhite;
+    font-family: arial,sans-serif;
+     color: #333;  /*dark grey text color */
+    line-height: 1.6;
+    margin: 0;
+     padding: 20px;    /*space around the whole page */
+}
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+}
 
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #0077ff;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-top: 30px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+/* Section Headings */
+h2 {
+    border-bottom: 2px solid #0077ff;
+    display: inline-block;
+    padding-bottom: 3px;
+}
+
+/* Sections */
+section {
+    margin-top: 30px;
+}
+
+/* Skills + Projects Lists */
+#skills ul,
+#projects ul {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#skills li,
+#projects li {
+    margin-bottom: 8px;
+}
+
+/* Contact Section */
+#contact a {
+    color: #0077ff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
